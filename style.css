@@ -1,132 +1,66 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     background: linear-gradient(90deg, rgb(202, 202, 219), rgb(205, 164, 69), rgb(134, 132, 132));
-
 }
 
-a{
+a {
     color: rgb(0, 0, 0);
     font-size: 12px;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
-
 }
 
-
-
-.button{  /* altera os dois botões em cima e embaixo */
-        position: relative;
-        align-items: right;
-        justify-content: right;
-        text-decoration: none;
-        border-radius: 20% 10%;
-        border-bottom: 3px solid black;
-        color: white;
-        background-color: black;
-        height: 50px;
-        
-}
-
-.button:hover{
-        transform: scale(1.05);
-        background-color: #817b7b;
-}
-
-
-p{
-    font-size: 18px;
-    height: 20px;
-    display: inline-grid;
-    text-align: justify;
-    margin-right: 30px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: normal;
-    justify-content: normal;
-    align-items: normal;
-    margin-bottom: 60px;
-}
-
-input{
-    padding: 8px;
-    border-radius: 8px;
-}
-
-
-#cadastrar{
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    position: center;
-    width: 100%;    
-}
-
-input [submit]{
-    position: center;
-    gap:30px;
-    
-    
-}
-
-#downloadapp{
+.button {
     position: relative;
-    align-items: right;
-    justify-content: right;
-    text-decoration: none;
+    text-align: center;
     border-radius: 20% 10%;
-    border-bottom: 3px solid black;
+    border: 3px solid black;
     color: white;
     background-color: black;
     height: 50px;
 }
 
-#downloadapp:hover{
-    scale:(1.05);
+.button:hover {
+    transform: scale(1.05);
     background-color: #817b7b;
 }
 
-
-.col-9{
-    justify-content: center;
-    padding: 40px;
-
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-bottom: 60px;
 }
 
-.col-4{
-    margin: 60px;
-    justify-content: left;
-    width: 60px;
-
+input {
+    padding: 8px;
+    border-radius: 8px;
 }
 
-.col-6{
-    border: 1px;
-    border-radius: 10px;
-    width: 25%;
-    border-color: black;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    position: relative;   
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10% 5%;
-    
-
+#cadastrar {
+    text-align: center;
+    width: 100%;
 }
 
+#downloadapp {
+    position: relative;
+    text-align: center;
+    border-radius: 20% 10%;
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+    height: 50px;
+}
 
-#blackfriday{
-    width: 120%;
-    height: 75%;
-    object-position: top;
-    margin-top: 30px;
-    margin-bottom: 0;
+#downloadapp:hover {
+    transform: scale(1.05);
+    background-color: #817b7b;
+}
+
+#blackfriday {
+    max-width: 100%;
+    height: auto;
 }
