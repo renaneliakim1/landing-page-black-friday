@@ -56,33 +56,35 @@
         </div>
     </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-9">
-                <h1>Aproveite as ofertas exclusivas de black friday. Se cadastre e baixe nosso APP, você receberá ofertas
-                    excusivas em tempo real.</h1>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <img src="blackfriday.webp" alt="Black Friday" title="Black Friday" id="blackfriday" class="img-fluid">
             </div>
-            <div class="col-4"> <img src="blackfriday.webp" alt="blackfriday" title="blackfriday" id="blackfriday">
-            </div>
-            <div class="col-6">
-                <h2>Digite suas informações</h2>
-                <form action="nome"> Digite seu nome completo</form>
-                <input type="text" name="nome" aria-required="true">
-
-                <form action="email"> Digite seu E-mail</form>
-                <input type="email" name="email" aria-required="true">
-
-                <form action="telefone"> Digite seu telefone</form>
-                <input type="tel" name="telefone" aria-required="true">
-                <br>
-
-                <b><a href=""><input type="submit" value="Cadastrar" class="button" id="cadastrar" /></b></a>
+            <div class="col-md-6">
+                <h1 class="display-4 text-center">Aproveite as ofertas exclusivas de Black Friday</h1>
+                <h2 class="text-center">Digite suas informações</h2>
+                <form action="nome">
+                    <label for="nome">Digite seu nome completo</label>
+                    <input type="text" id="nome" name="nome" class="form-control" aria-required="true">
+                </form>
+    
+                <form action="email">
+                    <label for="email">Digite seu E-mail</label>
+                    <input type="email" id="email" name= "email" class="form-control" aria-required="true">
+                </form>
+    
+                <form action="telefone">
+                    <label for="telefone">Digite seu telefone</label>
+                    <input type="tel" id="telefone" name="telefone" class="form-control" aria-required="true">
+                </form>
+    
+                <div class="text-center">
+                    <button type="submit" class="btn btn-dark" id="cadastrar">Cadastrar</button>
+                </div>
             </div>
         </div>
     </div>
-
-
-    </div>
-
+    
 </body>
 
 </html>
